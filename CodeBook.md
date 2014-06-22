@@ -28,6 +28,7 @@ SITTING : Measurements taken while the subject is sitting.
 STANDING : Measurements taken while the subject is standing still.
 LAYING : Measurements taken while the subject is laying down.
 
+##Process
 The script reads the subjects, labels, and dataset for both training and test cases and
 combines them into one single data frame. It then reads the 'features.txt' and uses this 
 to assign the correct type of measurement to the collected data columns. The 
